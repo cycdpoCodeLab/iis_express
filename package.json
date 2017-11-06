@@ -1,6 +1,6 @@
 {
   "name": "iis_express",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "express demo for iis(based on iisnode)",
   "main": "express.js",
   "scripts": {
