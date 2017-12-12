@@ -1,10 +1,11 @@
 {
   "name": "iis_express",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "express demo for iis(based on iisnode)",
   "main": "express.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development node ./express"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,11 @@
   },
   "homepage": "https://github.com/cycjimmy/iis_express#readme",
   "dependencies": {
+    "node-cache": "^4.1.1",
+    "superagent": "^3.8.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.1",
     "express": "^4.16.2"
   }
 }
