@@ -9,7 +9,7 @@
 * Use
   * clone
   ```shell
-  $ git clone https://github.com/cycjimmy/iis_express.git
+  $ git clone https://github.com/cycdpoCodeLab/iis_express.git
   ```
 
   * Install dependencies
